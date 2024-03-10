@@ -1,0 +1,49 @@
+.cryptoListMainCont {
+    margin: 20px;
+}
+
+.cryptoListMainCont>table {
+    min-width: 550px;
+    margin: auto;
+    border: 1px solid rgb(160, 158, 158);
+    border-radius: 5px;
+    border-spacing: 0;
+}
+
+th {
+    border-bottom: 1px solid rgb(219, 216, 216);
+    text-align: right;
+    padding: 20px;
+}
+th:first-child {
+    text-align: left;
+}
+
+td {
+    border-bottom: 1px solid rgb(219, 216, 216);
+    text-align: right;
+    padding: 15px;
+}
+
+td:first-child {
+    text-align: left;
+}
+
+tbody>tr {
+    cursor: pointer;
+}
+
+tbody>tr:last-child>td {
+    border-bottom: 0;
+}
+
+
+/* Media Query */
+
+
+@media screen and (max-width: 600px) {
+    .cryptoListMainCont {
+        margin: 20px 0px;
+        padding: 0px 5px;
+    }
+}

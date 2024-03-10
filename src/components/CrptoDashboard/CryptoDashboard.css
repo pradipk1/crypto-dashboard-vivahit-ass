@@ -1,0 +1,13 @@
+.cryptoDashboardMainCont {
+    padding: 20px;
+    text-align: center;
+}
+
+.cryptoInfCont {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
